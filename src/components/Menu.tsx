@@ -17,7 +17,6 @@ import { useEffect, useState } from 'react';
 import category from '../services/category';
 import config from '../config';
 
-
 interface CategoryPage {
     id: number;
     name: string;
