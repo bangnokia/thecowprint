@@ -36,7 +36,9 @@ const ListPost: React.FC = () => {
                                 }} />
                             }
                             <IonCardHeader>
-                                <IonCardTitle>{post.id} {post.title}</IonCardTitle>
+                                <IonCardTitle dangerouslySetInnerHTML={{
+                                    __html: post.title
+                                }}></IonCardTitle>
                             </IonCardHeader>
                             <IonCardContent>
                                 <p dangerouslySetInnerHTML={{ __html: post.excerpt }}></p>
