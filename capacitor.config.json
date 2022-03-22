@@ -1,0 +1,6 @@
+{
+    "appId": "com.thecowprint.blog",
+    "appName": "The COW Print",
+    "webDir": "build",
+    "bundledWebRuntime": false
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "com.animejacket.blog",
+	"appName": "Anime Jacket",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
